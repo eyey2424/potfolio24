@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+
+.visual { position: relative; padding: 0 50px;}
+.visual .con > div { height: 640px;}
+/* .visual .con .slide { background: url(/images/bg_main01.jpg) no-repeat center; color: #fff; font-size: 32px; line-height: 46px;} */
+.slide {
+    height: 350px;
+    overflow: hidden; 
+    margin-bottom: 20px;
+}
+.slide ul {
+    position: relative;
+    top: 0;
+}
+.visual .con .slide li{
+    position: relative;
+    height: 350px;
+}
+
+.visual .con .slide {
+    position: relative;
+    top: 0;
+}
+.visual .con .slide{
+    position: relative;
+    height: 350px;
+}
+
+
+.visual .con .slide li img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.visual .con .slide p { padding: px 0 0; font-size: 20px; line-height: 100%;}
+.visual .con .slide .txt { position: absolute; left: 50%; top: 99px;}
+
+/********************* slide *********************/
+
+.slide .prev,
+.slide .next {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 47px;
+    color: transparent;
+    z-index: 10;
+}
+
+.slide .prev {
+
+    left: 82px;
+    padding-left: 55px;
+    background: rgba(255, 255, 255, 0.5) url(../images/btn_main_prev.png) no-repeat 22px 50%;
+}
+
+.slide .next {
+    right: 82px;
+    padding-right: 55px;
+    background: rgba(255, 255, 255, 0.5) url(../images/btn_main_next.png) no-repeat 24px 50%;
+
+}
+
+.slide .prev:hover {
+    background-position: 112px 50%;
+}
+
+
+
+/*********************  *********************/
+.slide .control {
+    position: absolute;
+    left: 0;
+    bottom: 55px;
+    text-align: center;
+    width: 100%;
+}
+
+.slide .control>div {
+    display: inline-block;
+    position: relative;
+    padding: 0 45px 0 0;
+
+}
+
+.slide .control>div>div {
+    position: absolute;
+    right: 0;
+}
+
+
+/* control버튼에 대한 */
+.slide .control>div>div a {
+    overflow: hidden;
+    display: inline-block;
+    width: 8px;
+    height: 9px;
+    margin: 0 0 0 7px;
+    /* 플레이 멈춤 간격 */
+    opacity: 0.5;
+
+}
+
+.slide .control>div>div a.on {
+    opacity: 1;
+}
+
+.slide .control>div>div a.play {
+
+    background: url(./images/icon_play.svg) no-repeat;
+
+}
+
+
+.slide .control>div>div a.pause {
+    background: url(./images/icon_pause.svg) no-repeat;
+
+}
+
+.slide .control ul li {
+    display: inline-block;
+}
+
+.slide .control li {
+    display: inline-block;
+    padding: 0 3px;
+}
+
+/* contro 간격사이즈 조절 */
+.slide .control ul {
+    display: inline-block;
+    font-size: 0;
+    position: relative;
+    top: -7px;
+}
+
+/* li.on 되어있음 */
+.slide .control li.on a {
+    background: #fff;
+}
+
+.slide .control li a {
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+
+}
+
+.slide .control a {
+    color: transparent;
+}
+
+/* .visual .control a{
+    border: 1px solid red;
+} */
+
+/* .visual .control > div > div a{
+    border: 1px solid #000;
+}
+ */
