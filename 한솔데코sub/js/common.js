@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $('nav > ul ').hover(function(){
     // 올렸을 때
     $('#lnb nav > ul ul').stop().slideDown()
@@ -17,4 +18,25 @@ setInterval(function(){
         // top을 다시 0으로
         $('.visual .con .slide ul').css('top', '0')
     })
+=======
+$('nav > ul ').hover(function(){
+    // 올렸을 때
+    $('#lnb nav > ul ul').stop().slideDown()
+}, function(){
+    // 내렸을 때
+    $('#lnb nav > ul ul').stop().slideUp()
+})
+
+
+/************ 슬라이드 **************/
+setInterval(function(){
+    $('.visual .con .slide ul').animate({
+        'top': '-350px'
+    }, 1000, function(){
+        // 첫번째 슬라이드 뒤에 붙이기
+        $('.visual .con .slide ul ').append($('.visual .con .slide li:nth-child(1)'))
+        // top을 다시 0으로
+        $('.visual .con .slide ul').css('top', '0')
+    })
+>>>>>>> cbf27aaaf81eb10e123c7a08ed3afe6f81d49fd0
 }, 3000)

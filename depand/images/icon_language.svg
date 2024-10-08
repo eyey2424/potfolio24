@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="12.5" cy="11.5" r="9.5" stroke="#222222" stroke-width="1.5"/>
 <path d="M19.4497 5.02617C19.0246 6.94483 16.0582 9.00906 12.1483 9.94283C8.32554 10.8558 4.81912 10.3972 3.49997 8.95617" stroke="#222222" stroke-width="1.5"/>
 <path d="M21.4715 8.49922C21.3219 11.6992 18.0211 14.8727 13.4153 15.9727C9.12613 16.997 5.03404 15.9057 3.21611 13.5" stroke="#222222" stroke-width="1.5"/>
 <ellipse cx="11.9727" cy="11.5" rx="4.75" ry="9.5" stroke="#222222" stroke-width="1.5"/>
 </svg>
+=======
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12.5" cy="11.5" r="9.5" stroke="#222222" stroke-width="1.5"/>
+<path d="M19.4497 5.02617C19.0246 6.94483 16.0582 9.00906 12.1483 9.94283C8.32554 10.8558 4.81912 10.3972 3.49997 8.95617" stroke="#222222" stroke-width="1.5"/>
+<path d="M21.4715 8.49922C21.3219 11.6992 18.0211 14.8727 13.4153 15.9727C9.12613 16.997 5.03404 15.9057 3.21611 13.5" stroke="#222222" stroke-width="1.5"/>
+<ellipse cx="11.9727" cy="11.5" rx="4.75" ry="9.5" stroke="#222222" stroke-width="1.5"/>
+</svg>
+>>>>>>> cbf27aaaf81eb10e123c7a08ed3afe6f81d49fd0
